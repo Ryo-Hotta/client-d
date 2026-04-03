@@ -42,7 +42,7 @@ export function Footer() {
                 <span>創立：2025年11月</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-medium">次回イベント：2026年2月11日（水・祝）</span>
+                <span className="font-medium">次回イベント：2026年4月29日（日）</span>
               </div>
             </div>
             {/* SNS Links */}

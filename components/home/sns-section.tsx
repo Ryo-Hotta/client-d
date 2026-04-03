@@ -31,9 +31,8 @@ export function SnsSection() {
           </a>
 
           {/* LINE for Business */}
-          {/* TODO: 要確認 - 企業用LINE URL */}
           <a
-            href="#"
+            href="https://lin.ee/bUjvp8p"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-5 rounded-2xl bg-card border border-border/50 hover:border-primary/30 hover:shadow-md transition-all group"
@@ -50,9 +49,8 @@ export function SnsSection() {
           </a>
 
           {/* LINE for Students */}
-          {/* TODO: 要確認 - 学生用LINE URL */}
           <a
-            href="#"
+            href="https://lin.ee/v6tmmo1"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-5 rounded-2xl bg-card border border-border/50 hover:border-primary/30 hover:shadow-md transition-all group"

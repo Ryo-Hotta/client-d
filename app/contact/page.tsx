@@ -56,7 +56,7 @@ export default function ContactPage() {
                     <h3 className="font-bold text-foreground text-sm">次回イベント</h3>
                   </div>
                   <p className="text-muted-foreground text-sm mb-1 font-bold">
-                    2026年2月11日（水・祝）
+                    2026年4月29日（日）
                   </p>
                   <p className="text-muted-foreground text-sm mb-4">
                     企業5社 × 学生32名の交流イベント

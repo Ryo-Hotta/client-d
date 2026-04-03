@@ -42,9 +42,9 @@ export function ContactCTASection() {
             </div>
             <h3 className="text-xl font-bold text-foreground mb-3">次回イベント情報</h3>
             <p className="text-sm text-muted-foreground mb-6">
-              2026年2月11日（水・祝）
+              2026年4月29日（日）
               <br />
-              15:00〜20:00 開催予定
+              19:00〜21:00 開催予定
             </p>
             <Button asChild size="lg" variant="outline" className="w-full rounded-full bg-transparent">
               <Link href="/events#next">
