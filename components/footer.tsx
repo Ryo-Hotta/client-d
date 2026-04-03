@@ -48,7 +48,7 @@ export function Footer() {
             {/* SNS Links */}
             <div className="mt-6 flex items-center gap-4">
               <a
-                href="https://instagram.com/"
+                href="https://www.instagram.com/anicari_student?igsh=ODY4MzllbmlhMWR4&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"

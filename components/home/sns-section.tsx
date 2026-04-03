@@ -14,7 +14,7 @@ export function SnsSection() {
           {/* Instagram */}
           {/* TODO: 要確認 - Instagram URL */}
           <a
-            href="https://instagram.com/"
+            href="https://www.instagram.com/anicari_student?igsh=ODY4MzllbmlhMWR4&utm_source=qr"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-5 rounded-2xl bg-card border border-border/50 hover:border-primary/30 hover:shadow-md transition-all group"

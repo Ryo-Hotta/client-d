@@ -431,7 +431,7 @@ function EventsContent() {
             <Button asChild className="rounded-full">
               {/* TODO: 要確認 - 学生向けLINEのURLを設定してください */}
               <a
-                href="https://line.me/R/ti/p/@anicareer-student"
+                href="https://lin.ee/v6tmmo1"
                 target="_blank"
                 rel="noopener noreferrer"
               >

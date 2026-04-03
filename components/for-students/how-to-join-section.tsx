@@ -102,7 +102,7 @@ export function HowToJoinSection() {
                 className="w-full rounded-full" 
                 style={{ backgroundColor: "var(--accent)", color: "var(--accent-foreground)" }}
               >
-                <Link href="https://line.me/R/ti/p/@anicari-student" target="_blank" rel="noopener noreferrer">
+                <Link href="https://lin.ee/v6tmmo1" target="_blank" rel="noopener noreferrer">
                   LINEで申し込む
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>

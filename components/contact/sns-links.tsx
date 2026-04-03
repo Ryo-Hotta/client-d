@@ -10,7 +10,7 @@ export function SnsLinks() {
         {/* Instagram */}
         {/* TODO: 要確認 - Instagram URL */}
         <a
-          href="https://instagram.com/"
+          href="https://www.instagram.com/anicari_student?igsh=ODY4MzllbmlhMWR4&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-3 p-3 rounded-xl bg-muted hover:bg-muted/80 transition-colors"
@@ -25,9 +25,8 @@ export function SnsLinks() {
         </a>
 
         {/* LINE for Business */}
-        {/* TODO: 要確認 - 企業用LINE URL */}
         <a
-          href="#"
+          href="https://lin.ee/bUjvp8p"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-3 p-3 rounded-xl bg-muted hover:bg-muted/80 transition-colors"
@@ -42,9 +41,8 @@ export function SnsLinks() {
         </a>
 
         {/* LINE for Students */}
-        {/* TODO: 要確認 - 学生用LINE URL */}
         <a
-          href="#"
+          href="https://lin.ee/v6tmmo1"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-3 p-3 rounded-xl bg-muted hover:bg-muted/80 transition-colors"
