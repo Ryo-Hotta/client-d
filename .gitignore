@@ -1,5 +1,10 @@
 # Claude Code
-.claude/
+# 共有する設定とコマンドはtrack、個人用ファイルはignore
+.claude/*
+!.claude/commands/
+!.claude/settings.json
+.claude/memory/
+.claude/settings.local.json
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 

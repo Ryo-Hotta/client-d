@@ -17,7 +17,7 @@ export function ContactCTASection() {
 
         <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto mb-8">
           {/* Contact Form */}
-          <div className="p-8 rounded-2xl bg-card border-2 border-accent/20 hover:border-accent transition-colors">
+          <div className="p-6 md:p-8 rounded-2xl bg-card border-2 border-accent/20 hover:border-accent transition-colors">
             <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mx-auto mb-4">
               <Mail className="h-7 w-7 text-accent" />
             </div>
@@ -36,13 +36,13 @@ export function ContactCTASection() {
           </div>
 
           {/* Next Event */}
-          <div className="p-8 rounded-2xl bg-card border-2 border-primary/20 hover:border-primary transition-colors">
+          <div className="p-6 md:p-8 rounded-2xl bg-card border-2 border-primary/20 hover:border-primary transition-colors">
             <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
               <Calendar className="h-7 w-7 text-primary" />
             </div>
             <h3 className="text-xl font-bold text-foreground mb-3">次回イベント情報</h3>
             <p className="text-sm text-muted-foreground mb-6">
-              2026年4月29日（日）
+              2026年4月26日（日）
               <br />
               19:00〜21:00 開催予定
             </p>

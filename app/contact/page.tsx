@@ -28,7 +28,7 @@ export default function ContactPage() {
       {/* Main Content */}
       <section className="py-16 md:py-24 bg-background">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="grid lg:grid-cols-3 gap-10 lg:gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-10 lg:gap-16">
             {/* Form Section */}
             <div className="lg:col-span-2">
               <div className="scroll-mt-24">
@@ -56,7 +56,7 @@ export default function ContactPage() {
                     <h3 className="font-bold text-foreground text-sm">次回イベント</h3>
                   </div>
                   <p className="text-muted-foreground text-sm mb-1 font-bold">
-                    2026年4月29日（日）
+                    2026年4月26日（日）
                   </p>
                   <p className="text-muted-foreground text-sm mb-4">
                     企業5社 × 学生32名の交流イベント

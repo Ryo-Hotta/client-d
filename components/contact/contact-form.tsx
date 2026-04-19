@@ -98,7 +98,7 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-8">
+    <form onSubmit={handleSubmit} className="space-y-6 md:space-y-8">
       {/* User Type */}
       <div className="p-6 rounded-2xl bg-card border border-border/50">
         <Label className="text-base font-bold text-foreground mb-4 block">

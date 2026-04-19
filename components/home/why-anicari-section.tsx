@@ -40,7 +40,7 @@ export function WhyAniCariSection() {
           {reasons.map((reason, index) => (
             <div 
               key={index} 
-              className="p-8 rounded-2xl bg-card border border-border hover:border-primary/30 transition-all hover:shadow-md"
+              className="p-5 md:p-8 rounded-2xl bg-card border border-border hover:border-primary/30 transition-all hover:shadow-md"
             >
               <div className="flex flex-col md:flex-row gap-6">
                 {/* Icon & Number */}

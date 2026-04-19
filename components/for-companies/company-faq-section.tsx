@@ -87,7 +87,7 @@ export function CompanyFAQSection() {
         </div>
 
         {/* Contact Note */}
-        <div className="mt-8 p-6 rounded-xl bg-secondary border border-border text-center">
+        <div className="mt-8 p-4 md:p-6 rounded-xl bg-secondary border border-border text-center">
           <p className="text-sm text-card">
             その他ご不明な点がございましたら、
             <a href="/contact" className="font-medium hover:underline ml-1 text-card">

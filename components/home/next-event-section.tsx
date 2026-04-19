@@ -16,7 +16,7 @@ export function NextEventSection() {
         </div>
 
         {/* 2-Column Layout */}
-        <div className="grid md:grid-cols-5 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 items-center">
           {/* Left: Image (40%) */}
           <div className="md:col-span-2">
             <ImagePlaceholder
@@ -34,7 +34,7 @@ export function NextEventSection() {
                 <Calendar className="h-5 w-5 text-primary mt-1 shrink-0" />
                 <div>
                   <p className="font-bold text-foreground">日程</p>
-                  <p className="text-muted-foreground">2026年4月29日（日）19:00〜21:00</p>
+                  <p className="text-muted-foreground">2026年4月26日（日）19:00〜21:00</p>
                 </div>
               </div>
 

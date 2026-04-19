@@ -67,7 +67,7 @@ export default function AboutPage() {
       {/* Organization Overview with Image */}
       <section className="py-16 md:py-24 bg-background">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="grid md:grid-cols-5 gap-8 items-center mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 items-center mb-16">
             <div className="md:col-span-2">
               <ImagePlaceholder
                 label="団体メンバー4名の集合写真"
@@ -92,8 +92,8 @@ export default function AboutPage() {
       {/* Mission & Vision */}
       <section className="py-16 md:py-24 bg-muted/30">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="p-8 rounded-2xl bg-card border border-primary/20">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            <div className="p-6 md:p-8 rounded-2xl bg-card border border-primary/20">
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                 <Target className="h-7 w-7 text-primary" />
               </div>
@@ -104,7 +104,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="p-8 rounded-2xl bg-card border border-secondary/20">
+            <div className="p-6 md:p-8 rounded-2xl bg-card border border-secondary/20">
               <div className="w-14 h-14 rounded-xl bg-secondary/10 flex items-center justify-center mb-4">
                 <Eye className="h-7 w-7 text-secondary" />
               </div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
             代表プロフィール
           </h2>
 
-          <div className="grid md:grid-cols-5 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8">
             {/* Left: Images */}
             <div className="md:col-span-2 space-y-4">
               <ImagePlaceholder
@@ -180,8 +180,8 @@ export default function AboutPage() {
             活動実績
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="p-8 rounded-xl bg-card border border-border">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
+            <div className="p-6 md:p-8 rounded-xl bg-card border border-border">
               <div className="flex items-center gap-3 mb-4">
                 <Calendar className="h-6 w-6 text-primary" />
                 <h3 className="text-xl font-bold text-foreground">第1回 AniCari</h3>
@@ -193,12 +193,12 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="p-8 rounded-xl bg-card border border-secondary/20">
+            <div className="p-6 md:p-8 rounded-xl bg-card border border-secondary/20">
               <div className="flex items-center gap-3 mb-4">
                 <Users className="h-6 w-6 text-secondary" />
                 <h3 className="text-xl font-bold text-foreground">第3回 AniCari</h3>
               </div>
-              <p className="text-sm text-muted-foreground mb-3">2026年4月29日開催</p>
+              <p className="text-sm text-muted-foreground mb-3">2026年4月26日開催</p>
               <div className="space-y-2">
                 <p className="text-sm"><span className="font-bold text-foreground">開催形式：</span>日曜19:00〜21:00</p>
                 <p className="text-sm text-muted-foreground">継続的な成長を実現</p>

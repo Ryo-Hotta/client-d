@@ -15,7 +15,7 @@ export function AboutOrganizationSection() {
         </div>
 
         {/* 2-Column Layout */}
-        <div className="grid md:grid-cols-5 gap-8 mb-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 mb-12 items-center">
           {/* Left: Image (45%) */}
           <div className="md:col-span-2 overflow-hidden rounded-xl transition-transform duration-500 hover:scale-105 hover:shadow-2xl">
             <ImagePlaceholder
@@ -44,9 +44,9 @@ export function AboutOrganizationSection() {
         </div>
 
         {/* Mission & Vision */}
-        <div className="grid md:grid-cols-2 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
           {/* Mission */}
-          <div className="p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-card border border-primary/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+          <div className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-card border border-primary/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
             <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110">
               <Target className="h-7 w-7 text-primary" />
             </div>
@@ -58,7 +58,7 @@ export function AboutOrganizationSection() {
           </div>
 
           {/* Vision */}
-          <div className="p-8 rounded-2xl bg-gradient-to-br from-accent/10 to-card border border-accent/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+          <div className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-accent/10 to-card border border-accent/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
             <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110">
               <Eye className="h-7 w-7 text-accent" />
             </div>

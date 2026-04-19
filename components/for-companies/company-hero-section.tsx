@@ -34,13 +34,13 @@ export function CompanyHeroSection() {
 
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button asChild size="lg" style={{ backgroundColor: "var(--accent)", color: "var(--accent-foreground)" }} className="rounded-full min-w-[200px]">
+            <Button asChild size="lg" style={{ backgroundColor: "var(--accent)", color: "var(--accent-foreground)" }} className="rounded-full w-full sm:w-auto sm:min-w-[200px]">
               <Link href="#sponsor">
                 スポンサープラン詳細
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="rounded-full min-w-[200px] bg-transparent">
+            <Button asChild size="lg" variant="outline" className="rounded-full w-full sm:w-auto sm:min-w-[200px] bg-transparent">
               <Link href="/contact">
                 お問い合わせ
                 <ArrowRight className="ml-2 h-5 w-5" />

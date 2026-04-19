@@ -44,7 +44,7 @@ export function HowToJoinSection() {
         </div>
 
         {/* Steps */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {steps.map((step, index) => (
             <div key={index} className="relative">
               {/* Connector Line */}
@@ -70,9 +70,9 @@ export function HowToJoinSection() {
         <div className="max-w-4xl mx-auto">
           <h3 className="text-2xl font-bold text-foreground mb-6 text-center">申し込み方法</h3>
           
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {/* Contact Form */}
-            <div className="p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-card border border-primary/20">
+            <div className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-card border border-primary/20">
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                 <Mail className="h-7 w-7 text-primary" />
               </div>
@@ -89,7 +89,7 @@ export function HowToJoinSection() {
             </div>
 
             {/* LINE */}
-            <div className="p-8 rounded-2xl bg-gradient-to-br from-accent/10 to-card border border-accent/20">
+            <div className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-accent/10 to-card border border-accent/20">
               <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mb-4 text-accent font-bold text-xl">
                 LINE
               </div>

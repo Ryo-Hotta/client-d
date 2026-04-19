@@ -38,11 +38,11 @@ export function WhySponsorSection() {
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {benefits.map((benefit, index) => (
-            <div 
-              key={index} 
-              className="p-8 rounded-xl bg-card border border-border hover:border-accent/30 hover:shadow-md transition-all"
+            <div
+              key={index}
+              className="p-6 md:p-8 rounded-xl bg-card border border-border hover:border-accent/30 hover:shadow-md transition-all"
             >
               <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center mb-4">
                 <benefit.icon className="h-6 w-6 text-accent" />

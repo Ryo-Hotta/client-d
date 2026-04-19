@@ -50,13 +50,13 @@ export function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button asChild size="lg" className="rounded-full min-w-[240px] text-base hover:scale-105 transition-transform">
+            <Button asChild size="lg" className="rounded-full w-full sm:w-auto sm:min-w-[240px] text-base hover:scale-105 transition-transform">
               <Link href="/events#next">
                 <CalendarDays className="mr-2 h-5 w-5" />
-                次回イベント情報（4/29開催）
+                次回イベント情報（4/26開催）
               </Link>
             </Button>
-            <Button asChild size="lg" className="rounded-full min-w-[240px] bg-secondary hover:bg-secondary/90 text-base hover:scale-105 transition-transform">
+            <Button asChild size="lg" className="rounded-full w-full sm:w-auto sm:min-w-[240px] bg-secondary hover:bg-secondary/90 text-base hover:scale-105 transition-transform">
               <Link href="/for-companies#sponsor">
                 <Building2 className="mr-2 h-5 w-5" />
                 企業スポンサー募集

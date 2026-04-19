@@ -22,7 +22,7 @@ export function LeaderProfileSection() {
         </div>
 
         {/* 2-Column Layout */}
-        <div className="grid md:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8">
           {/* Left: Images (40%) */}
           <div className="md:col-span-2 space-y-4">
             {/* Main Portrait */}

@@ -17,7 +17,7 @@ export function FinalCTASection() {
 
         <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {/* For Students */}
-          <div className="p-8 rounded-2xl bg-card border-2 border-primary/20 hover:border-primary transition-colors">
+          <div className="p-6 md:p-8 rounded-2xl bg-card border-2 border-primary/20 hover:border-primary transition-colors">
             <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
               <Users className="h-7 w-7 text-primary" />
             </div>
@@ -36,7 +36,7 @@ export function FinalCTASection() {
           </div>
 
           {/* For Companies */}
-          <div className="p-8 rounded-2xl bg-card border-2 border-accent/20 hover:border-accent transition-colors">
+          <div className="p-6 md:p-8 rounded-2xl bg-card border-2 border-accent/20 hover:border-accent transition-colors">
             <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mx-auto mb-4">
               <Building2 className="h-7 w-7 text-accent" />
             </div>

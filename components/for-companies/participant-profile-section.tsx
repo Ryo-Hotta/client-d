@@ -14,7 +14,7 @@ export function ParticipantProfileSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 mb-12">
           {/* Total Participants */}
           <div className="p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-card border border-primary/20">
             <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
@@ -57,7 +57,7 @@ export function ParticipantProfileSection() {
           <div className="p-8 rounded-2xl bg-card border border-border">
             <h3 className="text-xl font-bold text-foreground mb-6">参加学生の内訳</h3>
             
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
               {/* Schools */}
               <div>
                 <h4 className="font-bold text-foreground mb-4 flex items-center gap-2">

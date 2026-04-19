@@ -34,13 +34,13 @@ export function StudentHeroSection() {
 
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button asChild size="lg" className="rounded-full min-w-[200px]">
+            <Button asChild size="lg" className="rounded-full w-full sm:w-auto sm:min-w-[200px]">
               <Link href="#join">
                 参加申し込み
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="rounded-full min-w-[200px] bg-transparent">
+            <Button asChild size="lg" variant="outline" className="rounded-full w-full sm:w-auto sm:min-w-[200px] bg-transparent">
               <Link href="/events">
                 イベント情報を見る
                 <ArrowRight className="ml-2 h-5 w-5" />

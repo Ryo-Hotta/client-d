@@ -26,7 +26,7 @@ export function Footer() {
   return (
     <footer className="bg-secondary border-t border-border">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="inline-block">
@@ -42,7 +42,7 @@ export function Footer() {
                 <span>創立：2025年11月</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-medium">次回イベント：2026年4月29日（日）</span>
+                <span className="font-medium">次回イベント：2026年4月26日（日）</span>
               </div>
             </div>
             {/* SNS Links */}

@@ -29,31 +29,31 @@ export function PastEventSection() {
         </div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-          <div className="p-6 rounded-xl bg-card border border-border text-center">
-            <Calendar className="h-8 w-8 text-primary mx-auto mb-3" />
-            <p className="text-3xl font-bold text-foreground mb-1">12/6</p>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6 mb-12">
+          <div className="p-4 sm:p-6 rounded-xl bg-card border border-border text-center">
+            <Calendar className="h-6 w-6 sm:h-8 sm:w-8 text-primary mx-auto mb-2 sm:mb-3" />
+            <p className="text-2xl sm:text-3xl font-bold text-foreground mb-1">12/6</p>
             <p className="text-sm text-muted-foreground">開催日</p>
           </div>
-          <div className="p-6 rounded-xl bg-card border border-border text-center">
-            <Users className="h-8 w-8 text-primary mx-auto mb-3" />
-            <p className="text-3xl font-bold text-foreground mb-1">13名</p>
+          <div className="p-4 sm:p-6 rounded-xl bg-card border border-border text-center">
+            <Users className="h-6 w-6 sm:h-8 sm:w-8 text-primary mx-auto mb-2 sm:mb-3" />
+            <p className="text-2xl sm:text-3xl font-bold text-foreground mb-1">13名</p>
             <p className="text-sm text-muted-foreground">学生参加者</p>
           </div>
-          <div className="p-6 rounded-xl bg-card border border-border text-center">
-            <GraduationCap className="h-8 w-8 text-primary mx-auto mb-3" />
-            <p className="text-3xl font-bold text-foreground mb-1">4校</p>
+          <div className="p-4 sm:p-6 rounded-xl bg-card border border-border text-center">
+            <GraduationCap className="h-6 w-6 sm:h-8 sm:w-8 text-primary mx-auto mb-2 sm:mb-3" />
+            <p className="text-2xl sm:text-3xl font-bold text-foreground mb-1">4校</p>
             <p className="text-sm text-muted-foreground">参加学校数</p>
           </div>
-          <div className="p-6 rounded-xl bg-card border border-border text-center">
-            <Award className="h-8 w-8 text-primary mx-auto mb-3" />
-            <p className="text-3xl font-bold text-foreground mb-1">3社</p>
+          <div className="p-4 sm:p-6 rounded-xl bg-card border border-border text-center">
+            <Award className="h-6 w-6 sm:h-8 sm:w-8 text-primary mx-auto mb-2 sm:mb-3" />
+            <p className="text-2xl sm:text-3xl font-bold text-foreground mb-1">3社</p>
             <p className="text-sm text-muted-foreground">参加企業数</p>
           </div>
         </div>
 
         {/* School Breakdown */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           <div className="p-6 rounded-xl bg-card border border-border">
             <h3 className="text-lg font-bold text-foreground mb-4">参加学校内訳</h3>
             <ul className="space-y-3">

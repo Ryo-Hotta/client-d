@@ -17,7 +17,7 @@ export function SponsorPlansDetailSection() {
         </div>
 
         {/* Plans Comparison */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-12">
           {/* Platinum Plan */}
           <div className="relative p-8 md:p-10 rounded-2xl bg-gradient-to-br from-primary/10 via-card to-primary/5 border-2 border-primary shadow-lg">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1.5 rounded-full bg-primary text-primary-foreground text-xs font-bold">
@@ -35,7 +35,7 @@ export function SponsorPlansDetailSection() {
             </div>
 
             <div className="mb-8">
-              <div className="text-5xl font-bold text-primary mb-2">¥50,000</div>
+              <div className="text-4xl sm:text-5xl font-bold text-primary mb-2">¥50,000</div>
               <p className="text-sm text-muted-foreground">1イベントあたり（税込）</p>
             </div>
 
@@ -92,7 +92,7 @@ export function SponsorPlansDetailSection() {
             </div>
 
             <div className="mb-8">
-              <div className="text-5xl font-bold text-accent mb-2">¥20,000</div>
+              <div className="text-4xl sm:text-5xl font-bold text-accent mb-2">¥20,000</div>
               <p className="text-sm text-muted-foreground">1イベントあたり（税込）</p>
             </div>
 

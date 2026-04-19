@@ -41,7 +41,7 @@ export function ValuePropositionSection() {
         </div>
 
         {/* 4-Image Grid (2x2) */}
-        <div className="grid grid-cols-2 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-12">
           {valueImages.map((image, index) => (
             <div key={index} className="space-y-3 group">
               <div className="overflow-hidden rounded-xl transition-transform duration-300 hover:scale-105 hover:shadow-xl">
@@ -57,9 +57,9 @@ export function ValuePropositionSection() {
         </div>
 
         {/* 2-Column Text Area */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {/* For Students */}
-          <div className="p-6 rounded-xl bg-card border border-border transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+          <div className="p-5 md:p-6 rounded-xl bg-card border border-border transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
             <div className="flex items-center gap-3 mb-4">
               <Users className="h-6 w-6 text-primary" />
               <h3 className="text-xl font-bold text-foreground">学生にとって</h3>
@@ -85,7 +85,7 @@ export function ValuePropositionSection() {
           </div>
 
           {/* For Companies */}
-          <div className="p-6 rounded-xl bg-card border border-border transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+          <div className="p-5 md:p-6 rounded-xl bg-card border border-border transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
             <div className="flex items-center gap-3 mb-4">
               <Building2 className="h-6 w-6 text-secondary" />
               <h3 className="text-xl font-bold text-foreground">企業にとって</h3>
